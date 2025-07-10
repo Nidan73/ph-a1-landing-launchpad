@@ -168,6 +168,7 @@ nav {
 
 .focus {
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 .focus-container {
   display: flex;
@@ -183,4 +184,44 @@ nav {
   height: 367px;
   border-radius: 48px;
   text-align: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+  padding: 0 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 100px;
+}
+
+.contact-1 {
+  width: 50%;
+  text-align: center;
+}
+label {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 64px;
+  border-radius: 10px;
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  padding: 20px 32px;
+  margin-bottom: 24px;
+  border: none;
 }
