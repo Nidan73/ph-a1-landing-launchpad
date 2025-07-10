@@ -21,6 +21,9 @@
   background-size: cover;
 }
 
+body {
+  background-color: #f5f8ff;
+}
 main {
   margin: 0 auto 130px;
   max-width: 1140px;
@@ -119,4 +122,46 @@ nav {
 .user-desc {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.review {
+  margin-top: 137px;
+  text-align: center;
+}
+
+.review-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  gap: 20px;
+}
+.review-align {
+  padding: 24px;
+  background-color: white;
+  border-radius: 14px;
+}
+
+.stars {
+  height: 20px;
+  width: 90px;
+  background-image: url(../Assets/icon-star.png);
+  background-repeat: repeat-x;
+}
+.review-content {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.review-desc {
+  font-size: 16px;
+  font-weight: 400;
+}
+.avatar {
+  display: flex;
+  gap: 6px;
+}
+.date-font {
+  color: #b3b3b3;
+  margin-top: 2px;
+  font-size: 10px;
 }
