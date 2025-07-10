@@ -62,3 +62,34 @@ nav {
   font-weight: bold;
   text-align: center;
 }
+.image {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+.live-preview {
+  padding: 130px 0;
+  margin: 0 auto;
+}
+.preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.preview-title {
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+.preview-info {
+  height: 203px;
+  width: 517px;
+}
+
+.preview-desc {
+  font-weight: 200;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
