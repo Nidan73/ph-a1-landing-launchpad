@@ -165,3 +165,22 @@ nav {
   margin-top: 2px;
   font-size: 10px;
 }
+
+.focus {
+  margin-top: 130px;
+}
+.focus-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border-radius: 14px;
+  padding: 150px 71px;
+  gap: 20px;
+}
+.image2 {
+  width: 840px;
+  height: 367px;
+  border-radius: 48px;
+  text-align: center;
+}
